@@ -1,9 +1,20 @@
+const fs = require("fs");
+const path = require("path");
+const contactPath = "./db/contacts.json";
 
 
-/*
- * Розкоментуйте і запиши значення
- * const contactsPath = ;
- */
+// const fileOperations = async({contactPath, actions}) => {
+//     switch(actions) {
+//       case "read":
+//         const text = await fs.readFile(contactPath, "utf8");
+//       console.log(text)
+//       break;
+//     default:
+//       console.log("Unknown")
+//     }
+// }
+//console.log(contactPath)
+
 
 // TODO: задокументувати кожну функцію
 function listContacts() {
